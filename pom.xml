@@ -37,6 +37,21 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+              <groupId>com.castsoftware</groupId>
+              <artifactId>imaging-cloud-analyzer-maven-plugin</artifactId>
+              <version>1.0-SNAPSHOT</version>
+              <executions>
+                <execution>
+                  <goals>
+                    <goal>run</goal>
+                  </goals>
+                </execution>
+              </executions>
+              <configuration>
+                <apiKey>dhnc4P3a.X4ZgZLEKxUaTQ8N4riWnRHUf5TD79OZT.5</apiKey>
+              </configuration>
+            </plugin>
 		</plugins>
 	</build>
 
